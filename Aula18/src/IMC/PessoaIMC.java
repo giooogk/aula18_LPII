@@ -25,7 +25,8 @@ public abstract class PessoaIMC extends Pessoa{
 	public String toString(){
 		String info = "Nome: " + this.nome
 				+ "Data de nascimento: " + this.dataNascimento
-				+"Altura: " +this.altura + "Peso: " + this.peso;
+				+"Altura: " +this.altura + "Peso: " + this.peso
+				+ "IMC: " + resultIMC();
 		return info;
 	}
 	public void setDataNascimento(String string) {

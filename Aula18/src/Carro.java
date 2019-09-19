@@ -11,6 +11,21 @@ public class Carro extends Veiculo implements CarbonFootprint {
 
 	public double getCarbonFootprint() {
 		// TODO Auto-generated method stub
+		if (motor >= 2.0) 
+		{
+			return getQuilometragem() * 1.85;
+		}
+		
+		if (motor > 1.0 && motor < 2.0) 
+		{
+			return getQuilometragem() * 1.22;
+		}
+		
+		if (motor <= 1.0) 
+		{
+			return getQuilometragem() * 0.13;
+		}
+		
 		return 0;
 	}
 

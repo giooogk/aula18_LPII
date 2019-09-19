@@ -29,29 +29,30 @@ public class Pricipal {
 		p.add(m);
 		
 		
+		System.out.println(m.toString());
 		//System.out.println(p.size());
 		
-		for(PessoaIMC a : p){
-			if (a.equals(m)){
-				System.out.println("--------------------------------" +
-						"Nome:" + a.getNome() + 
-						" Data de Nascimento: " + a.getDataNascimento() +
-						" Peso: " + a.getPeso()+
-						" Altura: " + a.getAltura() +
-						" IMC: " + a.resultIMC() +
-						"--------------------------------");
-			}
-			else{
-				System.out.println("--------------------------------" +
-						"Nome:" + a.getNome() + 
-						" Data de Nascimento: " + a.getDataNascimento() +
-						" Peso: " + a.getPeso()+
-						" Altura: " + a.getAltura() +
-						" IMC: " + a.resultIMC()+
-						"--------------------------------");
-			}
-			
-		}
+//		for(PessoaIMC a : p){
+//			if (a.equals(m)){
+//				System.out.println("--------------------------------" +
+//						"Nome:" + a.getNome() + 
+//						" Data de Nascimento: " + a.getDataNascimento() +
+//						" Peso: " + a.getPeso()+
+//						" Altura: " + a.getAltura() +
+//						" IMC: " + a.resultIMC() +
+//						"--------------------------------");
+//			}
+//			else{
+//				System.out.println("--------------------------------" +
+//						"Nome:" + a.getNome() + 
+//						" Data de Nascimento: " + a.getDataNascimento() +
+//						" Peso: " + a.getPeso()+
+//						" Altura: " + a.getAltura() +
+//						" IMC: " + a.resultIMC()+
+//						"--------------------------------");
+//			}
+//			
+//		}
 
 	}
 

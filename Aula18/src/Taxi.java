@@ -11,7 +11,7 @@ public class Taxi extends Veiculo implements CarbonFootprint {
 
 	public double getCarbonFootprint() {
 		// TODO Auto-generated method stub
-		return 0;
+		return getQuilometragem() * 1.10;
 	}
 
 }
