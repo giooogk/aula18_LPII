@@ -1,15 +1,14 @@
 package IMC;
-import java.util.Date;
 
 
 public class Pessoa {
 	protected String nome;
-	protected Date dataNascimento;
+	protected String dataNascimento;
 	
 	public String toString(){
-		System.out.println("Nome: " + this.nome
-				+ "Data de nascimento: " + this.dataNascimento);
-		return nome + dataNascimento;
+		String info = "Nome: " + this.nome
+				+ "Data de nascimento: " + this.dataNascimento;
+		return info;
 	}
 
 	public String getNome() {
@@ -20,12 +19,12 @@ public class Pessoa {
 		this.nome = nome;
 	}
 
-	public Date getDataNascimento() {
+	public String getDataNascimento() {
 		return dataNascimento;
 	}
 
-	public void setDataNascimento(Date dataNascimento) {
-		this.dataNascimento = dataNascimento;
+	public void setDataNascimento(String data) {
+		this.dataNascimento = data;
 	}
 	
 	

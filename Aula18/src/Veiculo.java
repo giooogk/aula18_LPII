@@ -1,9 +1,8 @@
-
 public class Veiculo {
 	private int quilometragem;
-	
-	public double custoMensalCombust(){
-		
+
+	public double custoMensalCombust() {
+
 		return 0;
 	}
 

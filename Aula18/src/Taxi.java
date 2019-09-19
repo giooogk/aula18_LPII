@@ -1,5 +1,4 @@
-
-public class Taxi extends Veiculo implements CarbonFootprint{
+public class Taxi extends Veiculo implements CarbonFootprint {
 	private int quantPessoas;
 
 	public int getQuantPessoas() {
@@ -14,5 +13,5 @@ public class Taxi extends Veiculo implements CarbonFootprint{
 		// TODO Auto-generated method stub
 		return 0;
 	}
-	
+
 }

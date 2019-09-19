@@ -1,4 +1,3 @@
-
 public class Moto extends Veiculo implements CarbonFootprint {
 	private int cilindradas;
 
@@ -14,5 +13,5 @@ public class Moto extends Veiculo implements CarbonFootprint {
 		// TODO Auto-generated method stub
 		return 0;
 	}
-	
+
 }

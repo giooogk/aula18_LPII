@@ -1,5 +1,4 @@
-
-public class Carro extends Veiculo implements CarbonFootprint{
+public class Carro extends Veiculo implements CarbonFootprint {
 	private double motor;
 
 	public double getMotor() {
@@ -14,5 +13,5 @@ public class Carro extends Veiculo implements CarbonFootprint{
 		// TODO Auto-generated method stub
 		return 0;
 	}
-	
+
 }
